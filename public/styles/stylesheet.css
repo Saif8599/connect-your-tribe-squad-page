@@ -1,0 +1,46 @@
+/* GTA Theme Squad Page Color Palette */
+
+:root {
+  /* Primary Colors */
+  --color-orange-primary: #ffb100;
+  --color-orange-secondary: #ffaa00;
+  --color-red-primary: #ff3d3d;
+
+  /* Accent Colors */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-dark-red: #b30000;
+  --color-neon-green: #32cd32;
+  --color-cyan: #00ffff;
+  --color-gold: #ffd700;
+  --color-blue: #0074ff;
+}
+
+/* Background Styling */
+body {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-gold);
+}
+
+/* Links */
+a {
+  color: var(--color-neon-green);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-cyan);
+}
