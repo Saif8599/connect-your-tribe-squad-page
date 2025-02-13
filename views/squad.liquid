@@ -4,14 +4,13 @@
 <a href="/">Back</a>
 
 <h2>Leden van Squad {{ squadName }}</h2>
-<ul>
+
+<input type="text" id="searchInput" placeholder="Zoek leden..." onkeyup="filterMembers()">
+
+<ul id="membersList">
   {% for person in person %}
-    <li>
+    <li class="member-item">
       <a href="/student/{{ person.id }}">{{ person.name }}</a>
     </li>
   {% endfor %}
 </ul>
-
-
-{% render 'partials/foot.liquid'
-  , squads: squads %}
