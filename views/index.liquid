@@ -9,5 +9,7 @@
     </li>
   {% endfor %}
 </ul>
-{% render 'partials/foot.liquid'
-  , squads: squads %}
+
+{% include "partials/squad-selector.liquid"%}
+
+{% render 'partials/foot.liquid' %}
