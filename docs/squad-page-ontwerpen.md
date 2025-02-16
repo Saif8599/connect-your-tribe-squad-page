@@ -37,7 +37,7 @@ In Directus (wat we gebruiken voor onze API) kun je de JSON data sorteren, filte
 Met deze URL _filter_ je bijvoorbeeld op alle personen die in team “Rocket” zitten: [https://fdnd.directus.app/items/person/?filter={"team":"Rocket"}](https://fdnd.directus.app/items/person/?filter=%7B%22team%22:%22Rocket%22%7D). Pas deze URL aan, zodat je alle personen die in jouw team zitten te zien krijgt als JSON.
 
 Ga daarna met je team aan een eigen tafel zitten en schrijf je naam en ID op het whiteboard.
-Vul daarna in de [WHOIS admin](https://whois.fdnd.nl/admin/) je favoriete design kleur, favoriete HTML tag en attribuut, favoriete CSS property en favoriete JS feature in.
+Vul daarna in de [WHOIS admin](https://whois.fdnd.nl/admin/) je favoriete design kleur, favoriete HTML tag en attribuut, favoriete CSS property en favoriete JS feature in. (Inmiddels zijn daar door verschillende ideeën van jullie nog een hoop extra velden bijgekomen.)
 
 #### Bron
 
@@ -101,7 +101,7 @@ Hoe is deze lijst standaard gesorteerd?
 
 Je kunt op alle velden in de WHOIS API sorteren.
 
-Sorteer nu de lijst alfabetisch, voeg de query parameter `sort=name` toe aan de URL in je browser, waardoor je `https://fdnd.directus.app/items/person/?sort=name` krijgt.
+Sorteer nu de lijst alfabetisch, voeg de query parameter `sort=name` toe aan de URL in je browser, waardoor je `https://fdnd.directus.app/items/person/?sort=name` krijgt. Meerdere query parameters splits je met het `&`-teken, de eerste query parameter van een URL krijgt een `?` ervoor.
 
 Wie is de eerste persoon als je op naam sorteert?
 
