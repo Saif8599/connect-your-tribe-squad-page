@@ -23,15 +23,4 @@
 
 {% include "partials/squad-selector.liquid" %}
 
-
-<h2>Students</h2>
-<ul>
-  {% for person in persons %}
-    <li>
-      <a href="/student/{{ person.id }}">{{ person.name }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
-
 {% render 'partials/foot.liquid' %}
